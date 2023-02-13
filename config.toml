@@ -1,7 +1,6 @@
 baseURL = "https://setsuna.adastra.name/"
 languageCode = "en-us"
-title = "自宅运维日志"
-theme = nightfall
+theme = "nightfall"
 
 [menu]
   [[menu.header]]
