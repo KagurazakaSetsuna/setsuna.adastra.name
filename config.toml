@@ -1,3 +1,34 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://setsuna.adastra.name/"
+languageCode = "en-us"
+title = "自宅运维日志"
+theme = nightfall
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+author = "Setsuna ad Astra"
+user = "hello"
+hostname = "setsuna.local"
+
+[[params.social]]
+key = 1
+name = "github"
+url = "https://github.com/KagurazakaSetsuna"
+
+[[params.social]]
+key = 0
+name = "twitter"
+url = "https://twitter.com/2022LTS"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:setsunad@outlook.jp"
