@@ -2,6 +2,8 @@ baseURL = "https://setsuna.adastra.name/"
 languageCode = "en-us"
 theme = "nightfall"
 publishDir = "docs"
+enableEmoji = true
+enableInlineShortcodes = true
 
 [menu]
   [[menu.header]]
